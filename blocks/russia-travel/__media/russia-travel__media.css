@@ -1,0 +1,7 @@
+.russia-travel__media {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 984px;
+  margin: 0;
+}

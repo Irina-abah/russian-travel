@@ -1,23 +1,40 @@
 # Проект 3: Путешествие по России
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+LINK TO GITHUB: https://irina-abah.github.io/russian-travel/
 
-**Интро**
+### Overview
+* Intro
+* Technologies
+* Files structure and naming
+* Future plans for development
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+**Intro**
 
-**Figma**
+This is a learning project from **Yandex Praktikum** to learn adaptive and responsive behaivour of elements. Represented as one-page website didived into blocks. Fully done by a stydent Iryna Abah.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+**Technologies**
 
-**Картинки**
+The following technologies were used:
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+* HTML5;
+* CSS.
 
-Удачи!
+The following main features of HTML and CSS were used:
+* adaptive design;
+* positioning;
+* semantic HTML;
+* flexbox;
+* grid;
+* <img> and <background> resize;
+* animation.
+
+Markup used: [Link to design](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+
+**Files structure and naming**
+
+BEM - [**Block Element Modifier**"](https://en.bem.info/methodology/) - methodology was used, **Nested** approach was used to organize files structure.
+
+**Future plans for development**
+
+1. Make it cross-browser and cross-device validated.
+2. Make responsive behaviour smooth.

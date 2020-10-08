@@ -1,0 +1,9 @@
+.russia-travel__map {
+  max-width: 95%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 10% auto;
+  z-index: 2;
+}
