@@ -9,13 +9,15 @@
   z-index: 2;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 679px) {
 
    .baikal-cover__title {
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 0 16px;
+    /* margin: 0 0 16px; */
     min-height: 70px;
+    max-width: 288px;
+    margin: 0 0 16px;
   }
 
 }
