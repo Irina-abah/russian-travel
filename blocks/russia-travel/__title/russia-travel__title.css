@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .russia-travel__title {
     font-size: 40px;

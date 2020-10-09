@@ -1,19 +1,19 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+@import url(../blocks/global/global.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/lang-switcher/lang-switcher.css);
+@import url(../blocks/lang-switcher/__item/lang-switcher__item.css);
 @import url(../blocks/lang-switcher/__link/lang-switcher__link.css);
 @import url(../blocks/lang-switcher/__link/_active/lang-switcher__link_active.css);
-@import url(../blocks/lang-switcher/lang-switcher.css);
-@import url(../blocks/link/links.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/russia-travel/russia-travel.css);
 @import url(../blocks/russia-travel/__title/russia-travel__title.css);
 @import url(../blocks/russia-travel/__subtitle/russia-travel__subtitle.css);
 @import url(../blocks/russia-travel/__media/russia-travel__media.css);
 @import url(../blocks/russia-travel/__image/russia-travel__image.css);
-@import url(../blocks/russia-travel/__map/russia-travel__map.css);
 @import url(../blocks/russia-travel/__signature/russia-travel__signature.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__columns/intro__columns.css);
@@ -32,32 +32,11 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/baikal/baikal.css);
-@import url(../blocks/baikal/__cover/baikal__cover.css);
-@import url(../blocks/baikal/__title/baikal__title.css);
-@import url(../blocks/baikal/__subtitle/baikal__subtitle.css);
+@import url(../blocks/baikal-cover/baikal-cover.css);
+@import url(../blocks/baikal-cover/__link/baikal__link.css);
+@import url(../blocks/baikal-cover/__title/baikal__title.css);
+@import url(../blocks/baikal-cover/__subtitle/baikal__subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/copyright/copyright.css);
-
-html {
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
-  background-color: #2a2c2f;
-  color: #fff;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-}

@@ -6,3 +6,17 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .russia-travel__signature {
+    margin-left: 24px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .russia-travel__signature {
+    margin-left: 16px;
+  }
+
+}

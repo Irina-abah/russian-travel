@@ -9,22 +9,25 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="global">
   <div class="root">
     <header class="header">
-      <img class="logo link" src="./images/header-logo.svg" alt="Логотип с изображением России">
-      <div class="lang-switcher">
-        <a class="lang-switcher__link lang-switcher__link_active link" href="#">Ru</a>
-        <a class="lang-switcher__link link" lang="en" href="#">En</a>
-      </div>
+      <img class="logo" src="./images/header-logo.svg" alt="Логотип с изображением России">
+      <ul class="lang-switcher">
+        <li class="lang-switcher__item">
+          <a class="lang-switcher__link lang-switcher__link_active" href="#">Ru</a>
+        </li>
+        <li class="lang-switcher__item">
+          <a class="lang-switcher__link" lang="en" href="#">En</a>
+        </li>
+      </ul>
     </header>
     <main class="main">
       <section class="russia-travel">
         <h1 class="russia-travel__title">Путешествия по России</h1>
         <p class="russia-travel__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="russia-travel__media">
-          <img class="russia-travel__image" src="./images/lead-polka.jpg" alt="Девушка лежит на полке в поезде и смотрит в окно">
-          <img class="russia-travel__map" src="./images/russia-travel-map.svg" alt="Маршрут путешествия с контрольными точками">
+          <img class="russia-travel__image" src="./images/Lead-image-downloaded.jpg" alt="Девушка лежит на полке в поезде и смотрит в окно">
           <figcaption class="russia-travel__signature">ваша полка — верхняя</figcaption>
         </figure>
       </section>
@@ -75,7 +78,7 @@
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+              <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
             <img class="place__image" src="./images/place-kurshskaya-kosa.jpg" alt="Куршская коса">
             <div class="place__description">
@@ -87,7 +90,7 @@
             <h3 class="place__title">Кольский</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+              <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
             </div>
             <img class="place__image" src="./images/place-kolskii.jpg" alt="Кольский">
             <div class="place__description">
@@ -101,7 +104,7 @@
             <h3 class="place__title">Алтай</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+              <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
               </div>
             <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
             <div class="place__description">
@@ -114,7 +117,7 @@
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+              <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="./images/place-zimnii-baikal.jpg" alt="Зимний Байкал">
             <div class="place__description">
@@ -128,7 +131,7 @@
             <h3 class="place__title">Карелия</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
+              <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
@@ -136,20 +139,19 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </article>
       </section>
-      <section class="baikal">
-        <div class="baikal__cover">
+      <section class="baikal-cover">
+          <a class="baikal__link" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
           <h3 class="baikal__title">До Байкала «на собаках»</h3>
           <p class="baikal__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-        </div>
     </section>
     </main>
     <footer class="footer">
       <nav class="menu">
-        <a class="menu__link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="menu__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="menu__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="menu__link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="menu__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        <a class="menu__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+        <a class="menu__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+        <a class="menu__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+        <a class="menu__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+        <a class="menu__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
       </nav>
       <p class="copyright">© 2020. Ирина Абах</p>
     </footer>
