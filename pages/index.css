@@ -33,9 +33,9 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/baikal-cover/baikal-cover.css);
-@import url(../blocks/baikal-cover/__link/baikal__link.css);
-@import url(../blocks/baikal-cover/__title/baikal__title.css);
-@import url(../blocks/baikal-cover/__subtitle/baikal__subtitle.css);
+@import url(../blocks/baikal-cover/__link/baikal-cover__link.css);
+@import url(../blocks/baikal-cover/__title/baikal-cover__title.css);
+@import url(../blocks/baikal-cover/__subtitle/baikal-cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__link/menu__link.css);
