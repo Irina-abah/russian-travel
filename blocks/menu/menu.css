@@ -1,5 +1,6 @@
 .menu {
   display: flex;
+  margin: 0;
 }
 
 @media (max-width: 682px) {
@@ -7,6 +8,7 @@
     .menu {
     flex-direction: column;
     width: 100%;
+    margin-bottom: 48px;
   }
 
 }
