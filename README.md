@@ -1,4 +1,4 @@
-# Проект 3: Путешествие по России
+# Project 3: Путешествие по России / Travel is Russia
 
 LINK TO GITHUB: https://irina-abah.github.io/russian-travel/index.html
 
